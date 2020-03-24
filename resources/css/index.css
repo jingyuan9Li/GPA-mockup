@@ -101,6 +101,8 @@ main p.paper {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     font-size: 36px;
     width: 500px;
     background-color: white;
