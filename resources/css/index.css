@@ -12,7 +12,7 @@ body {
 
 .Top {
     position: relatvie;
-    margin-left: 200px;
+    margin-left: 300px;
     padding: 5px 7px 0 7px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ body {
 
 .navbar {
     height: 100%;
-    width: 200px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -37,14 +37,14 @@ body {
     background-color: #d2cfc1;
     align-content: center;
     /*    Trying to get background image*/
-    /*
+    
     align-content: center;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-blend-mode: multiply;
     background-image: url("../images/bamboo-euclidean-vector-cartoon-illustration-png-favpng-3Kf98mn0kM1sGfRwwh92kXVK6.png");
     background-repeat: repeat;
-*/
+
 }
 
 .navbar ul {
@@ -52,6 +52,7 @@ body {
     text-decoration: none;
     width: 100%;
     align-content: center;
+    text-align: center;
     padding-top: 200px;
     display: block;
     line-height: 185%
@@ -62,39 +63,46 @@ body {
     color: black;
     text-decoration: none;
     font-weight: 550;
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 1.8;
 }
 
 
 header {
     text-align: center;
     position: relative;
-    padding-top: 40px;
-    margin-left: 200px;
+    margin-top: 60px;
+    margin-left: 300px;
     align-items: center;
 }
 
 
 h1 {
-    font-size: 40px;
+    font-size: 46px;
     letter-spacing: 1.3px;
 }
 
 
 .pandalogo {
-    margin-top: 55px;
-    margin-left: 200px;
+    margin-top: 70px;
+    margin-left: 300px;
     position: relative;
     text-align: center;
 }
 
 
+.pandalogo img{
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 main {
-    margin-bottom: 2000px;
     display: block;
-    position: relative;
-    margin-left: 200px;
-    margin-top: 120px;
+    margin-left: 300px;
+    margin-top: 90px;
+    margin-bottom: 1000px;
 }
 
 
@@ -106,6 +114,7 @@ main p.paper {
     -webkit-transform: translateX(-50%);
     font-size: 36px;
     width: 500px;
+    line-height: 1.6;
     background-color: white;
     padding: 60px 80px 100px 90px;
     border-radius: 5px;
