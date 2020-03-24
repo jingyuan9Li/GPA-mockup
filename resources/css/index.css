@@ -90,14 +90,17 @@ h1 {
 
 
 main {
-    margin-top: 500px;
-    display: flex;
+    display: block;
     position: relative;
-    left: 200px;
+    margin-left: 200px;
+    margin-top: 120px;
 }
 
 
-main .paper {
+main p.paper {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 36px;
     width: 500px;
     background-color: white;
@@ -106,4 +109,9 @@ main .paper {
     box-shadow:
         100px 80px 120px 30px rgba(30, 20, 0, 0.05),
         -90px -70px 220px -80px rgba(255, 255, 255, 1);
+}
+
+
+.FakeComments{
+    position: relative;
 }
