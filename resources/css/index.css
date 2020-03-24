@@ -90,7 +90,7 @@ h1 {
 
 
 main {
-    height: 2000px；
+    margin-bottom: 2000px;
     display: block;
     position: relative;
     margin-left: 200px;
@@ -112,5 +112,4 @@ main p.paper {
     box-shadow:
         100px 80px 120px 30px rgba(30, 20, 0, 0.05),
         -90px -70px 220px -80px rgba(255, 255, 255, 1);
-    margin-bottom: 2000px;
 }
